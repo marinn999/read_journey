@@ -1,8 +1,17 @@
 export const NotFound = () => {
   return (
-    <div>
-      <img src="https://images.app.goo.gl/YY3NHCLH4F7Kq1hv8" width={1000} />
-      <h2 className="font-bold text-7xl text-center">Page not found</h2>
+    <div
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <img
+        src="https://png.pngtree.com/png-vector/20220103/ourmid/pngtree-404-error-page-not-found-png-image_4181763.png"
+        width={1000}
+      />
     </div>
   );
 };
